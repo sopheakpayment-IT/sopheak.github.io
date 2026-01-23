@@ -2,61 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Personal Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
-            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .card {
-            background: #ffffff;
-            width: 320px;
-            padding: 30px 25px;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
-            text-align: center;
-        }
-
-        .card img {
-            width: 140px;
-            height: 140px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 4px solid #4f46e5;
-            margin-bottom: 15px;
-        }
-
-        .card h1 {
-            font-size: 22px;
-            margin: 10px 0 8px;
-            color: #1f2937;
-        }
-
-        .card p {
-            font-size: 14px;
-            color: #4b5563;
-            line-height: 1.6;
-        }
-    </style>
+    <title>My GitHub Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">DevName</div>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="card">
-        <img src="profile.jpg" alt="My Profile Image">
-        <h1>Sopheak</h1>
-        <p>
-            I am a learner who is passionate about technology and creativity.
-            This is my simple personal website created using HTML and CSS.
-        </p>
-    </div>
-
+    <main>
+        <section class="hero">
+            <h1>Building Digital Experiences</h1>
+            <p>Welcome to my GitHub-hosted space.</p>
+        </section>
+        
+        <section id="projects" class="grid">
+            </section>
+    </main>
 </body>
 </html>
-
